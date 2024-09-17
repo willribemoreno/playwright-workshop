@@ -23,8 +23,8 @@
     - [[Home Challenge] Select your super hero's](#challenge-select-your-super-heros)
     - [Select the last programming language and print all the options](#select-the-last-programming-language-and-print-all-the-options)
 
-5. [Multi-Select](#multi-select)
-    -[Let's select 😉 all](#lets-select--all)
+5. [Multi-Select](#multi-select)   
+    - [Let's select 😉 all](#lets-select--all)
 
 6. [Radio]()
 
