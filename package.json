@@ -1,0 +1,21 @@
+{
+  "name": "playwright-workshop",
+  "version": "1.0.0",
+  "description": "It's a simple test framework based on Playwright created for a Playwright workshop",
+  "scripts": {
+    "playwright:install:browsers": "playwright install --with-deps chromium webkit",
+    "test:all": "playwright test",
+    "test:headed:filter": "playwright test --headed --grep",
+    "test:headless:filter": "playwright test --headed --grep",
+    "test:dryrun": "playwright test --list",
+    "test:debug:filter": "playwright test --debug --grep",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "William Moreno",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0"
+  }
+}
