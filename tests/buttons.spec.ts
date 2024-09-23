@@ -10,7 +10,7 @@ test.beforeEach("Open Base URL", async ({ basePage, testPage }) => {
 
     await test.step("Open the buttons card", async () => {
         /**
-         * Passo 1: Chame o método openButtonCard() que está na page "testPage"(page-objects > test-page.ts)
+         * Passo 1: Chame o método openButtonCard() que está na page ""testPage"(page-objects > test > test-page.ts)
          */
     });
 });

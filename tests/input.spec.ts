@@ -10,7 +10,7 @@ test.beforeEach("Open Base URL", async ({ basePage, testPage }) => {
 
     await test.step("Open the input card", async () => {
         /**
-         * Passo 1: Chame o método openInputCard() que está na page "testPage"(page-objects > input-page.ts)
+         * Passo 1: Chame o método openInputCard() que está na page "testPage"(page-objects > test > test-page.ts)
          */
     });
 });

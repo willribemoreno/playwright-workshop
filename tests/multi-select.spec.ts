@@ -26,7 +26,7 @@ test.describe("Test suite for Multi-Select tests",
                  * https://playwright.dev/docs/api/class-locator#locator-all
                  * 
                  * nota:
-                 * Não é necessário validar se as opções foram selecionadas adequadamente. A idéia dessa tarefa é apenas aprender diferentes maneiras de interagir com elementos. Validações já foram feitas nas tarefas anteriores e vocês já tem o conhecimento necessário para isso.
+                 * Não é necessário validar se as opções foram selecionadas adequadamente. A idéia dessa tarefa é apenas aprender diferentes maneiras de interagir com elementos. Validações já foram feitas nas tarefas anteriores e vocês já tem o conhecimento necessário para isso. Porém, podem realizar a validação como um desafio extra.
                  */
             });
         })

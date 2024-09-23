@@ -24,11 +24,14 @@
     - [Select the last programming language and print all the options](#select-the-last-programming-language-and-print-all-the-options)
 
 5. [Multi-Select](#multi-select)   
-    - [Let's select 😉 all](#lets-select--all)
+    - [Let's select all](#lets-select-all)
 
-6. [Radio]()
+6. [Radio & Checkbox](#radio--checkbox)
+    - [Select any one](#select-any-one)
+    - [Accept the T&C](#accept-the-tc)
 
-7. [Form]()
+7. [Form](#forms)
+    - [Preencher o form](#preencher-o-form)
 
 8. [Documentações úteis](#documentações-úteis)
 
@@ -176,7 +179,7 @@ Todos os testes são realizados na página "Selectable"
 
 [Clique aqui](https://letcode.in/selectable) para abrir a página
 
-## Let's select 😉 all
+## Let's select all
 ![](/doc-assets/multi-select/multi-select.png)
 
 ### O que precisa ser feito?
@@ -219,13 +222,13 @@ O Playwright possui uma documentação que aborda como realizar ações com a fe
 Clique no link abaixo para acessar a documentação.   
 - [Actions](https://playwright.dev/docs/input#text-input)
 
-## Extrair texto de elementos do tipo `input`, `textarea`, `select`   
-- [inputValue](https://playwright.dev/docs/api/class-elementhandle#element-handle-input-value)
-
 ## Asserções
 O Playwright fornece uma série de "métodos" que podem ser utilizados para realizar validações(asserções).   
 A documentação completa a respeito das asserções suportadas pode ser verificada abaixo.   
 - [Assertions](https://playwright.dev/docs/test-assertions)  
+
+## Extrair texto de elementos do tipo `input`, `textarea`, `select`   
+- [inputValue](https://playwright.dev/docs/api/class-elementhandle#element-handle-input-value)
 
 ## Navegar para uma URL específica
 Verifique a documentação abaixo para entender como navegar até uma URL específica
@@ -246,7 +249,7 @@ Verifique a documentação abaixo para entender como selecionar um dropdown a pa
 
 - [selectOption](https://playwright.dev/docs/api/class-locator#locator-select-option)
 
-## Rodar um JavaScript na page
+## Rodar um JavaScript na página
 Verifique a documentação abaixo para entender como utilizar um JavaScript na page sob testes.
 - [evaluateAll](https://playwright.dev/docs/api/class-locator#locator-evaluate-all)
 
